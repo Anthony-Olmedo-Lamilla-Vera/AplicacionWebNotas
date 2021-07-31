@@ -1,38 +1,200 @@
+body {
+  min-height: 100vh;
+  margin: 0 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Indie+Flower&display=swap");
+
+:root {
+  --FuenteTextos: "Dancing Script", cursive;
+  --fuenteMensjae: "Indie Flower", cursive;
+  --color--titulos: #32a752;
+  --color--textos: #1d2523;
+}
+
+html {
+  font-size: 14px;
+}
 .App {
+  position: relative;
+  min-height: 100vh;
+}
+.heads {
+  backdrop-filter: blur(40px);
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  width: 100%;
+  color: "#fff";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cont_contenido {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  width: 85%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.contenido {
+  width: 100%;
+  height: 100%;
+}
+.contenido p {
+  background: filter(brigthness(5%));
+  color: #ffff;
+}
+.titlenote {
+  background-color: red;
+  text-align: center;
+  color: aliceblue;
+  padding: 10px;
+}
+.btn-crear {
+  background-image: linear-gradient(
+    to right,
+    #4cb8c4 0%,
+    #3cd3ad 51%,
+    #4cb8c4 100%
+  );
+
+  padding: 8px 30px;
+  border-radius: 15px;
+  outline: none;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 20px;
+  border-style: none;
+  transition: 0.5s;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-crear:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button {
+  cursor: pointer;
+}
+.cont-btn {
+  align-items: center;
+  margin-left: 15px;
+  text-align: center;
+}
+.cont-btn i {
+  font-size: 30px;
+}
+.cont-modal {
+  /*background-color: #fff;*/
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  min-width: 150px;
+  width: 250px;
+  min-height: 400px;
+  position: relative;
+}
+.cont-modal p {
+  font-family: var(--FuenteTextos);
+  font-size: 20px;
+  color: #000;
+  margin: 15px 0;
+  animation: 2s infinite linear alternate;
+  animation-name: colorcambiar;
+}
+@keyframes colorcambiar {
+  0% {
+    color: #000201;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    color: #1f074b;
   }
+}
+.cont-modal > * {
+  margin: 0;
+}
+.titulo-modal {
+  text-align: center;
+  width: 100%;
+  margin: 8px 0;
+}
+.position-modal {
+  z-index: 99999;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-modal {
+  position: absolute;
+  z-index: -15;
+}
+.back-modal img {
+  border-radius: 15px;
+  width: 250px;
+  min-height: 400px;
+}
+.titulo-modal p {
+  font-size: 25px;
+  font-family: var(--FuenteTextos);
+}
+input,
+textarea {
+  border-radius: 5px;
+  outline: none;
+  border-style: none;
+  color: var(--color--textos);
+  font-size: var(--FuenteTextos);
+  font-family: var(--fuenteMensjae);
+}
+input {
+  width: 8px 50px;
+}
+.back-fondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -150;
+}
+
+.back-fondo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.Notas {
+  border: 1px solid red;
+  margin: 10px auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  min-height: 100px;
+  max-height: 400px;
+  min-width: 170px;
+  max-width: 300px;
+  background-color: transparent;
+}
+.back-contenido {
+  object-fit: cover;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -15;
+}
+.back-contenido img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
 }

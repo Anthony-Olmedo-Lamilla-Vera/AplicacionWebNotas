@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import { io } from "socket.io-client";
+import { useContext, useEffect, useState } from "react";
+import "./App.css";
+import Nota from "./Component/Nota";
+import Axios from "axios";
+import CreacionNote from "./Component/CreacionNote";
+import Modal from "./Component/Modal";
+import Context, { Contexto, contexto } from "./Context";
+import { useValor } from "./Component/useConf";
+import Inicio from "./Component/Inicio";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Context>
+      <Inicio />
+    </Context>
   );
 }
 
