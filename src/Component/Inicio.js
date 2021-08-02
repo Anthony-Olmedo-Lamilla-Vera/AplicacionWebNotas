@@ -41,7 +41,7 @@ function Inicio() {
 
   const obtener = async () => {
     await axios
-      .get("https://notasbebe.herokuapp.com/")
+      .get("http://localhost:5000/")
       .then((response) => setData(response.data));
   };
 

@@ -12,7 +12,7 @@ function Modal() {
   useEffect(() => {}, [Conf]);
   async function Post() {
     setConf(false);
-    await Axios.post("https://notasbebe.herokuapp.com/", {
+    await Axios.post("http://localhost:5000/", {
       Titulo: Titulo,
       Descripcion: Descripcion,
     })
