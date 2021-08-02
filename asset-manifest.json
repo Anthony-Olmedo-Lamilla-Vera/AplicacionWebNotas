@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/AplicacionWebNotas/static/css/main.ee1d4616.chunk.css",
-    "main.js": "/AplicacionWebNotas/static/js/main.16c01000.chunk.js",
-    "main.js.map": "/AplicacionWebNotas/static/js/main.16c01000.chunk.js.map",
-    "runtime-main.js": "/AplicacionWebNotas/static/js/runtime-main.56b8429b.js",
-    "runtime-main.js.map": "/AplicacionWebNotas/static/js/runtime-main.56b8429b.js.map",
-    "static/js/2.5978ddde.chunk.js": "/AplicacionWebNotas/static/js/2.5978ddde.chunk.js",
-    "static/js/2.5978ddde.chunk.js.map": "/AplicacionWebNotas/static/js/2.5978ddde.chunk.js.map",
-    "static/js/3.1eb06e3b.chunk.js": "/AplicacionWebNotas/static/js/3.1eb06e3b.chunk.js",
-    "static/js/3.1eb06e3b.chunk.js.map": "/AplicacionWebNotas/static/js/3.1eb06e3b.chunk.js.map",
+    "main.css": "/AplicacionWebNotas/static/css/main.54d9c0e0.chunk.css",
+    "main.js": "/AplicacionWebNotas/static/js/main.5772453e.chunk.js",
+    "main.js.map": "/AplicacionWebNotas/static/js/main.5772453e.chunk.js.map",
+    "runtime-main.js": "/AplicacionWebNotas/static/js/runtime-main.cf033c3a.js",
+    "runtime-main.js.map": "/AplicacionWebNotas/static/js/runtime-main.cf033c3a.js.map",
+    "static/js/2.89e68d4e.chunk.js": "/AplicacionWebNotas/static/js/2.89e68d4e.chunk.js",
+    "static/js/2.89e68d4e.chunk.js.map": "/AplicacionWebNotas/static/js/2.89e68d4e.chunk.js.map",
+    "static/js/3.f2fec578.chunk.js": "/AplicacionWebNotas/static/js/3.f2fec578.chunk.js",
+    "static/js/3.f2fec578.chunk.js.map": "/AplicacionWebNotas/static/js/3.f2fec578.chunk.js.map",
     "index.html": "/AplicacionWebNotas/index.html",
-    "static/css/main.ee1d4616.chunk.css.map": "/AplicacionWebNotas/static/css/main.ee1d4616.chunk.css.map",
-    "static/js/2.5978ddde.chunk.js.LICENSE.txt": "/AplicacionWebNotas/static/js/2.5978ddde.chunk.js.LICENSE.txt",
+    "static/css/main.54d9c0e0.chunk.css.map": "/AplicacionWebNotas/static/css/main.54d9c0e0.chunk.css.map",
+    "static/js/2.89e68d4e.chunk.js.LICENSE.txt": "/AplicacionWebNotas/static/js/2.89e68d4e.chunk.js.LICENSE.txt",
     "static/media/Capi.c872ca2e.jpg": "/AplicacionWebNotas/static/media/Capi.c872ca2e.jpg",
     "static/media/Fondo.d41c60d2.jpg": "/AplicacionWebNotas/static/media/Fondo.d41c60d2.jpg",
+    "static/media/FotoAbrazados.e0554157.jpg": "/AplicacionWebNotas/static/media/FotoAbrazados.e0554157.jpg",
+    "static/media/FotoComoBebe.7cfb39ce.jpeg": "/AplicacionWebNotas/static/media/FotoComoBebe.7cfb39ce.jpeg",
     "static/media/FotoCon2.f4ef4bd0.jpg": "/AplicacionWebNotas/static/media/FotoCon2.f4ef4bd0.jpg",
+    "static/media/FotoEncimaMio.7805ec35.jpeg": "/AplicacionWebNotas/static/media/FotoEncimaMio.7805ec35.jpeg",
+    "static/media/FotoEspejo.cbf345ae.jpg": "/AplicacionWebNotas/static/media/FotoEspejo.cbf345ae.jpg",
     "static/media/Loro.b98d4ee6.jpg": "/AplicacionWebNotas/static/media/Loro.b98d4ee6.jpg",
     "static/media/Max.cf09ca31.jpg": "/AplicacionWebNotas/static/media/Max.cf09ca31.jpg",
     "static/media/MaxHam.fcd5ac8f.jpg": "/AplicacionWebNotas/static/media/MaxHam.fcd5ac8f.jpg",
@@ -24,9 +28,9 @@
     "static/media/pixie.85e22f69.jpg": "/AplicacionWebNotas/static/media/pixie.85e22f69.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.56b8429b.js",
-    "static/js/2.5978ddde.chunk.js",
-    "static/css/main.ee1d4616.chunk.css",
-    "static/js/main.16c01000.chunk.js"
+    "static/js/runtime-main.cf033c3a.js",
+    "static/js/2.89e68d4e.chunk.js",
+    "static/css/main.54d9c0e0.chunk.css",
+    "static/js/main.5772453e.chunk.js"
   ]
 }
