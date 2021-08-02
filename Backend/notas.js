@@ -10,7 +10,11 @@ mongoose
     "mongodb+srv://antocraxx:perfect12@cluster0.feg8c.mongodb.net/Notes?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
-  .then((db) => console.log("conctado3......" + db))
+  .then(
+    app.listen(5000, () => {
+      console.log("conectadoaaaaaaaaa");
+    })
+  )
   .catch((err) => console.log("err" + err));
 
 const nota = mongoose.Schema({
@@ -36,8 +40,4 @@ app.post("/", (req, res) => {
 
   console.log(ver);
   ver.save().then(() => console.log("Guardado corrrectamente"));
-});
-
-app.listen(5000, () => {
-  console.log("conectadoaaaaaaaaa");
 });

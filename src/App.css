@@ -46,6 +46,8 @@ html {
 .contenido p {
   background: filter(brigthness(5%));
   color: #ffffff;
+  font-family: var(--fuenteMensjae);
+  font-size: 20px;
 }
 .titlenote {
   font-size: 18px;
@@ -215,10 +217,16 @@ input {
   height: 100%;
 }
 .mensaje {
-  border-radius: 15px;
-  margin: 0 20px;
   font-family: var(--FuenteTextos);
   font-weight: bold;
   text-align: center;
   font-size: 18px;
+  background-color: #000000;
+  padding: 25px 12px;
+}
+.mensaje p {
+  color: #ffff;
+  margin: 0;
+}
+.contenido p {
 }
