@@ -41,3 +41,12 @@ app.post("/", (req, res) => {
   console.log(ver);
   ver.save().then(() => console.log("Guardado corrrectamente"));
 });
+app.put("/:id", (req, res) => {
+  const { Titulo, Descripcion } = req.body;
+  const newNota = { Titulo, Descripcion };
+
+  modelNota.findByIdAndUpdate(req.params.id, newNota);
+});
+app.delete("/:id", async (req, res) => {
+  await modelNota.findByIdAndRemove(req.params.id);
+});

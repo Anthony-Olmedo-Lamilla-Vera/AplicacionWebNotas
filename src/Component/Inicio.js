@@ -40,11 +40,11 @@ function Inicio() {
   }, [Conf]);
 
   const obtener = async () => {
-    await axios
-      .get("http://localhost:5000/")
-      .then((response) => setData(response.data));
+    await axios.get("http://localhost:5000/").then((response) => {
+      setData(response.data);
+      console.log(response.data);
+    });
   };
-
   return (
     <>
       <div className="App">
@@ -72,7 +72,13 @@ function Inicio() {
 
         <div className="cont_contenido">
           {Data.map((res) => {
-            return <Nota titulo={res.titulo} description={res.Descipcion} />;
+            return (
+              <Nota
+                titulo={res.titulo}
+                id={res._id}
+                description={res.Descipcion}
+              />
+            );
           })}
         </div>
       </div>
