@@ -6,6 +6,7 @@ function CreacionNote() {
 
   return (
     <div className="cont-btn">
+      <i class="bx bxs-heart"></i>
       <button onClick={() => setConf(true)} className="btn-crear">
         Crear Nota
         <i className="bx bx-note"></i>

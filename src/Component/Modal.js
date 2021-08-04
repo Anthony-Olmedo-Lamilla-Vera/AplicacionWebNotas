@@ -19,7 +19,6 @@ function Modal() {
     })
       .then((response) => {
         console.log(response);
-        setConf(false);
       })
       .catch((err) => console.log(err));
   }

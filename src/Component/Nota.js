@@ -1,6 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { Contexto } from "../Context";
 import Buttoneliminar from "./Buttoneliminar";
 function Nota(props) {
+  const { Conf, Eliminar } = useContext(Contexto);
+
+  useEffect(() => {}, [Eliminar, Conf]);
   return (
     <div className="Notas">
       <div className="contenido">

@@ -97,6 +97,7 @@ button {
   cursor: pointer;
 }
 .cont-btn {
+  display: flex;
   align-items: center;
   margin-left: 15px;
   text-align: center;
@@ -246,4 +247,7 @@ input {
   padding: 0 8px;
   background-color: #fff;
   font-size: 15px;
+}
+.cont-btn .bxs-heart {
+  color: red;
 }
