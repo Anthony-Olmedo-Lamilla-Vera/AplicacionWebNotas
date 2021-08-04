@@ -15,7 +15,7 @@ function Modal() {
     await Axios.post("https://server-notas.herokuapp.com/", {
       Titulo: Titulo,
       Descripcion: Descripcion,
-      Fecha: Moment().format("L"),
+      Fecha: Moment().format("LL"),
     })
       .then((response) => {
         console.log(response);

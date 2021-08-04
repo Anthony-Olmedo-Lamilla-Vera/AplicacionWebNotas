@@ -16,7 +16,7 @@ import Foto9 from "../Img/FotoAbrazados.jpg";
 import Foto10 from "../Img/FotoEncimaMio.jpeg";
 import Foto11 from "../Img/FotoEspejo.jpg";
 import Foto12 from "../Img/FotoComoBebe.jpeg";
-
+import Buttoneliminar from "./Buttoneliminar";
 function Inicio() {
   const [Data, setData] = useState([]);
   const [Img, setImg] = useState([
@@ -80,6 +80,7 @@ function Inicio() {
                 titulo={res.titulo}
                 id={res._id}
                 description={res.Descipcion}
+                fecha={res.fecha}
               />
             );
           })}

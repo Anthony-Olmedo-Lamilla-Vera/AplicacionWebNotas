@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect } from "react";
 
 function Buttoneliminar(props) {
-  useEffect(() => {}, [props.id]);
+  useEffect(() => {}, [EliminarNota()]);
   async function EliminarNota() {
     await axios
       .delete("https://server-notas.herokuapp.com/" + props.id)
