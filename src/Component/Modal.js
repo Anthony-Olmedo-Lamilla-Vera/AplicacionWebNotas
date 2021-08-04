@@ -12,12 +12,13 @@ function Modal() {
   useEffect(() => {}, [Conf]);
   async function Post() {
     setConf(false);
-    await Axios.post("http://localhost:5000/", {
+    await Axios.post("https://server-notas.herokuapp.com/", {
       Titulo: Titulo,
       Descripcion: Descripcion,
     })
       .then((response) => {
         console.log(response);
+        setConf(false);
       })
       .catch((err) => console.log(err));
   }

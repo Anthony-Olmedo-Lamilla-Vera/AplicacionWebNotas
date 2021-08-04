@@ -40,10 +40,13 @@ function Inicio() {
   }, [Conf]);
 
   const obtener = async () => {
-    await axios.get("http://localhost:5000/").then((response) => {
-      setData(response.data);
-      console.log(response.data);
-    });
+    await axios
+      .get("https://server-notas.herokuapp.com/")
+      .then((response) => {
+        setData(response.data);
+        console.log(response.data);
+      })
+      .catch((err) => console.log("No conecto  bds rua"));
   };
   return (
     <>
@@ -56,8 +59,8 @@ function Inicio() {
           <p>
             Hola Mi Bebe ! , Esta pagina la hize para ti mi cielo, Eres la Mujer
             de Mi Vida! ,Estare Siemprre para ti bebe, Eres una increible
-            Persona <i class="bx bxs-heart"></i>TE AMOOOOO!
-            <i class="bx bxs-heart"></i>
+            Persona <i className="bx bxs-heart"></i>TE AMOOOOO!
+            <i className="bx bxs-heart"></i>
           </p>
         </div>
 
