@@ -3,15 +3,13 @@ import React, { useContext, useEffect, useState } from "react";
 import { Contexto } from "../Context";
 import CreacionNote from "./CreacionNote";
 import Modal from "./Modal";
-import Nota from "./Nota";
-import Buttoneliminar from "./Buttoneliminar";
 import Fondo from "./Fondo";
 import DataNota from "./DataNota";
 import Foto9 from "../Img/FotoAbrazados.jpg";
 import Foto10 from "../Img/FotoEncimaMio.jpeg";
 
 function Inicio() {
-  useEffect(() => {
+  /* useEffect(() => {
     if (Notification.permission === "denied") {
       Notification.requestPermission("acepta la notficacion bebe");
     } else Notification.requestPermission();
@@ -27,7 +25,7 @@ function Inicio() {
       };
       new Notification("HOLA BEBE", option);
     }
-  }, []);
+  }, []);*/
   const { Conf, Eliminar } = useContext(Contexto);
 
   return (
