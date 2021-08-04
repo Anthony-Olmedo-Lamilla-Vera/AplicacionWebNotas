@@ -3,7 +3,7 @@ import Axios from "axios";
 import { useEffect, useState } from "react";
 import { Contexto } from "../Context";
 import Fondo from "../Img/Fondo.jpg";
-
+import Moment from "moment";
 function Modal() {
   const { Conf, setConf } = useContext(Contexto);
 
@@ -15,6 +15,7 @@ function Modal() {
     await Axios.post("https://server-notas.herokuapp.com/", {
       Titulo: Titulo,
       Descripcion: Descripcion,
+      Fecha: Moment().format("L"),
     })
       .then((response) => {
         console.log(response);

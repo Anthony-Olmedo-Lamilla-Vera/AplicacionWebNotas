@@ -9,6 +9,9 @@ function Nota(props) {
         <div className="eliminar-btn">
           <Buttoneliminar id={props.id} />
         </div>
+        <div className="fecha">
+          <p></p>
+        </div>
       </div>
     </div>
   );
