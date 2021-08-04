@@ -12,10 +12,10 @@ import Foto10 from "../Img/FotoEncimaMio.jpeg";
 
 function Inicio() {
   useEffect(() => {
-    if (Notification.permission === "denied")
+    if (Notification.permission === "denied") {
       Notification.requestPermission("acepta la notficacion bebe");
-    else Notification.requestPermission();
-    if (Notification.permission === "granted")
+    } else Notification.requestPermission();
+    if (Notification.permission === "granted") {
       var option = {
         image: Foto9,
         body: "como estas ?? , ven mira las notas preciosa",
@@ -25,7 +25,8 @@ function Inicio() {
         bage: Foto10,
         requireInteraction: true,
       };
-    new Notification("HOLA BEBE", option);
+      new Notification("HOLA BEBE", option);
+    }
   }, []);
   const { Conf, Eliminar } = useContext(Contexto);
 
