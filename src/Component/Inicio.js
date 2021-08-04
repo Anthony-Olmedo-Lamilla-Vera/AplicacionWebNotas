@@ -7,7 +7,26 @@ import Nota from "./Nota";
 import Buttoneliminar from "./Buttoneliminar";
 import Fondo from "./Fondo";
 import DataNota from "./DataNota";
+import Foto9 from "../Img/FotoAbrazados.jpg";
+import Foto10 from "../Img/FotoEncimaMio.jpeg";
+
 function Inicio() {
+  useEffect(() => {
+    if (Notification.permission === "denied")
+      Notification.requestPermission("acepta la notficacion bebe");
+    else Notification.requestPermission();
+    if (Notification.permission === "granted")
+      var option = {
+        image: Foto9,
+        body: "como estas ?? , ven mira las notas preciosa",
+        vibrate: navigator.vibrate(2000),
+        renotify: true,
+        tag: "App de Notas ",
+        bage: Foto10,
+        requireInteraction: true,
+      };
+    new Notification("HOLA BEBE", option);
+  }, []);
   const { Conf, Eliminar } = useContext(Contexto);
 
   return (
