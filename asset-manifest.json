@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AplicacionWebNotas/static/css/main.e168e6de.chunk.css",
-    "main.js": "/AplicacionWebNotas/static/js/main.bb062724.chunk.js",
-    "main.js.map": "/AplicacionWebNotas/static/js/main.bb062724.chunk.js.map",
+    "main.js": "/AplicacionWebNotas/static/js/main.77937584.chunk.js",
+    "main.js.map": "/AplicacionWebNotas/static/js/main.77937584.chunk.js.map",
     "runtime-main.js": "/AplicacionWebNotas/static/js/runtime-main.91fe3a7f.js",
     "runtime-main.js.map": "/AplicacionWebNotas/static/js/runtime-main.91fe3a7f.js.map",
     "static/js/2.87fa57b5.chunk.js": "/AplicacionWebNotas/static/js/2.87fa57b5.chunk.js",
@@ -12,24 +12,23 @@
     "index.html": "/AplicacionWebNotas/index.html",
     "static/css/main.e168e6de.chunk.css.map": "/AplicacionWebNotas/static/css/main.e168e6de.chunk.css.map",
     "static/js/2.87fa57b5.chunk.js.LICENSE.txt": "/AplicacionWebNotas/static/js/2.87fa57b5.chunk.js.LICENSE.txt",
-    "static/media/Capi.c872ca2e.jpg": "/AplicacionWebNotas/static/media/Capi.c872ca2e.jpg",
-    "static/media/Fondo.d41c60d2.jpg": "/AplicacionWebNotas/static/media/Fondo.d41c60d2.jpg",
-    "static/media/FotoAbrazados.e0554157.jpg": "/AplicacionWebNotas/static/media/FotoAbrazados.e0554157.jpg",
-    "static/media/FotoComoBebe.7cfb39ce.jpeg": "/AplicacionWebNotas/static/media/FotoComoBebe.7cfb39ce.jpeg",
-    "static/media/FotoCon2.f4ef4bd0.jpg": "/AplicacionWebNotas/static/media/FotoCon2.f4ef4bd0.jpg",
-    "static/media/FotoEncimaMio.7805ec35.jpeg": "/AplicacionWebNotas/static/media/FotoEncimaMio.7805ec35.jpeg",
-    "static/media/FotoEspejo.cbf345ae.jpg": "/AplicacionWebNotas/static/media/FotoEspejo.cbf345ae.jpg",
-    "static/media/Loro.b98d4ee6.jpg": "/AplicacionWebNotas/static/media/Loro.b98d4ee6.jpg",
-    "static/media/Max.cf09ca31.jpg": "/AplicacionWebNotas/static/media/Max.cf09ca31.jpg",
-    "static/media/MaxHam.fcd5ac8f.jpg": "/AplicacionWebNotas/static/media/MaxHam.fcd5ac8f.jpg",
-    "static/media/Oso.8540f5e5.jpg": "/AplicacionWebNotas/static/media/Oso.8540f5e5.jpg",
-    "static/media/Snaucer.72dec862.jpg": "/AplicacionWebNotas/static/media/Snaucer.72dec862.jpg",
-    "static/media/pixie.85e22f69.jpg": "/AplicacionWebNotas/static/media/pixie.85e22f69.jpg"
+    "static/media/Capi-min.78272b9e.jpg": "/AplicacionWebNotas/static/media/Capi-min.78272b9e.jpg",
+    "static/media/FotoAbrazados-min.3bfc3d96.jpg": "/AplicacionWebNotas/static/media/FotoAbrazados-min.3bfc3d96.jpg",
+    "static/media/FotoComoBebe-min.db690ee7.jpeg": "/AplicacionWebNotas/static/media/FotoComoBebe-min.db690ee7.jpeg",
+    "static/media/FotoCon2-min.64f51556.jpg": "/AplicacionWebNotas/static/media/FotoCon2-min.64f51556.jpg",
+    "static/media/FotoEncimaMio-min.c214a268.jpeg": "/AplicacionWebNotas/static/media/FotoEncimaMio-min.c214a268.jpeg",
+    "static/media/FotoEspejo-min.2c609926.jpg": "/AplicacionWebNotas/static/media/FotoEspejo-min.2c609926.jpg",
+    "static/media/Loro-min.a8cd0529.jpg": "/AplicacionWebNotas/static/media/Loro-min.a8cd0529.jpg",
+    "static/media/Max-min.9d2385ad.jpg": "/AplicacionWebNotas/static/media/Max-min.9d2385ad.jpg",
+    "static/media/MaxHam-min.9b4ced3d.jpg": "/AplicacionWebNotas/static/media/MaxHam-min.9b4ced3d.jpg",
+    "static/media/Oso-min.eabd86d2.jpg": "/AplicacionWebNotas/static/media/Oso-min.eabd86d2.jpg",
+    "static/media/Snaucer-min.e6a4c731.jpg": "/AplicacionWebNotas/static/media/Snaucer-min.e6a4c731.jpg",
+    "static/media/pixie-min.18eeae0b.jpg": "/AplicacionWebNotas/static/media/pixie-min.18eeae0b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.91fe3a7f.js",
     "static/js/2.87fa57b5.chunk.js",
     "static/css/main.e168e6de.chunk.css",
-    "static/js/main.bb062724.chunk.js"
+    "static/js/main.77937584.chunk.js"
   ]
 }
