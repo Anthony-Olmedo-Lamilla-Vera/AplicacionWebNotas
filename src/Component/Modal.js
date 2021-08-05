@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Axios from "axios";
 import { useEffect, useState } from "react";
 import { Contexto } from "../Context";
-import Fondo from "../Img/Fondo.jpg";
+import Fondo from "../Img/Fondo-min.jpg";
 import Moment from "moment";
 function Modal() {
   const { Conf, setConf } = useContext(Contexto);

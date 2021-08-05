@@ -5,8 +5,8 @@ import CreacionNote from "./CreacionNote";
 import Modal from "./Modal";
 import Fondo from "./Fondo";
 import DataNota from "./DataNota";
-import Foto9 from "../Img/FotoAbrazados.jpg";
-import Foto10 from "../Img/FotoEncimaMio.jpeg";
+import Foto9 from "../Img/FotoAbrazados-min.jpg";
+import Foto10 from "../Img/FotoEncimaMio-min.jpeg";
 
 function Inicio() {
   useEffect(() => {
